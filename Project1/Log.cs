@@ -58,8 +58,8 @@ namespace EIF_Monitor
 
             foreach (string i in lst)
             {
-                if (i.Length < 4) continue; // 너무 짧은 단어는 취급 안함             
-
+                if (i.Length < 4) continue; // 너무 짧은 단어는 취급 안함
+                
                 if (str.Contains(i)) return true;
             }
 

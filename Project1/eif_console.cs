@@ -152,10 +152,13 @@ namespace EIF_Monitor
                     break;
             }
         }
+<<<<<<< HEAD
 
         private void btnLog_Click_1(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
     }
 }

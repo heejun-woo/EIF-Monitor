@@ -152,12 +152,15 @@ namespace EIF_Monitor
         {
 
         }
+<<<<<<< HEAD
 
         private void button2_Click(object sender, EventArgs e)
         {
             Log log = new Log(string.Empty);
             log.Show();
         }
+=======
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
     }
 }
 

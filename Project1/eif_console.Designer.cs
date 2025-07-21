@@ -41,10 +41,17 @@ namespace EIF_Monitor
             this.lbEQP_Name.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbEQP_Name.Font = new System.Drawing.Font("굴림", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbEQP_Name.ForeColor = System.Drawing.Color.Blue;
+<<<<<<< HEAD
             this.lbEQP_Name.Location = new System.Drawing.Point(1, 7);
             this.lbEQP_Name.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lbEQP_Name.Name = "lbEQP_Name";
             this.lbEQP_Name.Size = new System.Drawing.Size(199, 25);
+=======
+            this.lbEQP_Name.Location = new System.Drawing.Point(2, 10);
+            this.lbEQP_Name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbEQP_Name.Name = "lbEQP_Name";
+            this.lbEQP_Name.Size = new System.Drawing.Size(285, 38);
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
             this.lbEQP_Name.TabIndex = 0;
             this.lbEQP_Name.Text = "EQP_ID_123";
             this.lbEQP_Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -55,10 +62,17 @@ namespace EIF_Monitor
             this.lbStatus.BackColor = System.Drawing.SystemColors.Window;
             this.lbStatus.Font = new System.Drawing.Font("굴림", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbStatus.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.lbStatus.Location = new System.Drawing.Point(206, 7);
             this.lbStatus.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lbStatus.Name = "lbStatus";
             this.lbStatus.Size = new System.Drawing.Size(125, 25);
+=======
+            this.lbStatus.Location = new System.Drawing.Point(294, 10);
+            this.lbStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbStatus.Name = "lbStatus";
+            this.lbStatus.Size = new System.Drawing.Size(179, 38);
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
             this.lbStatus.TabIndex = 1;
             this.lbStatus.Text = "Wait";
             this.lbStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -68,10 +82,17 @@ namespace EIF_Monitor
             this.lbLotRunning.BackColor = System.Drawing.SystemColors.Window;
             this.lbLotRunning.Font = new System.Drawing.Font("굴림", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbLotRunning.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.lbLotRunning.Location = new System.Drawing.Point(335, 7);
             this.lbLotRunning.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lbLotRunning.Name = "lbLotRunning";
             this.lbLotRunning.Size = new System.Drawing.Size(64, 25);
+=======
+            this.lbLotRunning.Location = new System.Drawing.Point(479, 10);
+            this.lbLotRunning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbLotRunning.Name = "lbLotRunning";
+            this.lbLotRunning.Size = new System.Drawing.Size(92, 38);
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
             this.lbLotRunning.TabIndex = 1;
             this.lbLotRunning.Text = "OFF";
             this.lbLotRunning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -81,10 +102,17 @@ namespace EIF_Monitor
             this.lbLotID.BackColor = System.Drawing.SystemColors.Window;
             this.lbLotID.Font = new System.Drawing.Font("굴림", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbLotID.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.lbLotID.Location = new System.Drawing.Point(405, 7);
             this.lbLotID.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lbLotID.Name = "lbLotID";
             this.lbLotID.Size = new System.Drawing.Size(132, 25);
+=======
+            this.lbLotID.Location = new System.Drawing.Point(578, 10);
+            this.lbLotID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbLotID.Name = "lbLotID";
+            this.lbLotID.Size = new System.Drawing.Size(188, 38);
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
             this.lbLotID.TabIndex = 0;
             this.lbLotID.Text = "Lot ID 123";
             this.lbLotID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -92,6 +120,7 @@ namespace EIF_Monitor
             // btnLog
             // 
             this.btnLog.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+<<<<<<< HEAD
             this.btnLog.Location = new System.Drawing.Point(540, 7);
             this.btnLog.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnLog.Name = "btnLog";
@@ -100,20 +129,39 @@ namespace EIF_Monitor
             this.btnLog.Text = "LOG";
             this.btnLog.UseVisualStyleBackColor = true;
             this.btnLog.Click += new System.EventHandler(this.btnLog_Click_1);
+=======
+            this.btnLog.Location = new System.Drawing.Point(771, 10);
+            this.btnLog.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(130, 38);
+            this.btnLog.TabIndex = 2;
+            this.btnLog.Text = "LOG";
+            this.btnLog.UseVisualStyleBackColor = true;
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
             this.btnLog.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnLog_MouseDown);
             // 
             // eif_console
             // 
+<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+=======
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnLog);
             this.Controls.Add(this.lbLotRunning);
             this.Controls.Add(this.lbStatus);
             this.Controls.Add(this.lbLotID);
             this.Controls.Add(this.lbEQP_Name);
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.Name = "eif_console";
             this.Size = new System.Drawing.Size(640, 39);
+=======
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "eif_console";
+            this.Size = new System.Drawing.Size(915, 59);
+>>>>>>> 7f216004be1330473acc96756266050637c36b57
             this.Load += new System.EventHandler(this.eif_console_Load);
             this.ResumeLayout(false);
 
